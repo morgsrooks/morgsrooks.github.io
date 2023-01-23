@@ -1,0 +1,398 @@
+/* Background Gradient */
+body {
+    width: auto;
+    height: 3095px;
+    background: linear-gradient(180deg, #00425B 1.04%, rgba(0, 66, 91, 0.83) 45.83%, rgba(0, 66, 91, 0) 100%);
+    background-repeat: no-repeat;
+}
+/* Nav */
+
+.nav {
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    padding: 0px;
+    text-align: center;
+    background: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    box-shadow: 0px 4px 13px -5px rgba(0, 66, 91, 0.28);
+  }
+
+.navlinks {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navlogo {
+    width: 100px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+/* Nav Items Position */
+
+.inline-block {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     padding-right: 10px;
+     gap: 37px;
+     align-content: center;
+     z-index: 3;
+ }
+
+/* Menu Items */
+
+.headertext {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #000000;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+
+/* Say Hi CTA header */
+
+.headerbutton {
+    background: #B5DD37;
+    border-radius: 6px;
+    border: #B5DD37;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    transition-duration: 0.8s;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.headerbutton:hover {
+    background-color: #FF71D7;
+    color: white;
+  }
+
+/* H1 */
+.h1 {
+    font-family: 'Dinosaur Cake DEMO';
+    font-style: normal;
+    font-weight: 400;
+    font-kerning: 1em;
+    font-size: 150%;
+    display: flex;
+    align-items: left;
+    color: #FFFFFF;
+    height: 2px;
+}
+
+/* H2 */
+
+h2 {
+    display: block;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.85em;
+    z-index: 3;
+}
+
+.h2 {
+    position: relative;
+    font-family: 'Dinosaur Cake DEMO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 880%;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    color: #FF71D7;
+    height: 220px;
+}
+
+/* H3 */
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: .25em;
+    margin-block-end: 1em;
+    z-index: 3;
+}
+
+.h3 {
+    position: relative;
+    font-family: 'Dinosaur Cake DEMO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1300%;
+    line-height: 209px;
+    display: flex;
+    align-items: left;
+    color: #FF71D7;
+    height: 150px;
+}
+
+/* H4 */
+
+h4 {
+    display: block;
+    margin-block-start: .7em;
+    margin-block-end: .33em;
+}
+.h4 {
+    position: relative;
+    font-family: 'Dinosaur Cake DEMO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1200%;
+    line-height: 119px;
+    display: flex;
+    align-items: left;
+    color: #FF71D7;
+}
+
+/* Paragraph */
+p {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+    width: 728px;
+    height: 18px;
+    z-index: 99;
+}
+
+/* Hero  */
+
+.hero {
+    position: relative;
+    width: 90%;
+    height: viewport;
+    left: 7%;
+    top: 7%;
+}
+
+
+.star1 {
+  position: absolute;
+  left: 11.23%;
+  right: 86.31%;
+  top: 10.73%;
+}
+
+.star2 {
+  position: absolute;
+  left: 88.19%;
+  right: 9.35%;
+  top: 15.84%;
+  bottom: 95.48%;
+}
+
+.star3 {
+  position: absolute;
+  left: 4.47%;
+  right: 81%;
+  top: 25.24%;
+  bottom: 94.32%;
+}
+
+.star4 {
+  position: absolute;
+  left: 84.86%;
+  right: 13.75%;
+  top: 60.74%;
+  bottom: 86.89%;
+  transform: matrix(0.98, 0.19, -0.22, 0.98, 0, 0);
+  z-index: 99;
+}
+
+.star5 {
+  position: absolute;
+  left: 2.66%;
+  right: 90.88%;
+  top: 90.14%;
+}
+
+/* Top Hero Line */
+
+.heroline {
+  position: absolute;
+  width: 400px;
+  height: 900px;
+  left: 565px;
+  top: 10px;
+  z-index: 2;
+}
+
+/* Gradient Hero */
+
+.gradient {
+position: absolute;
+width: 847.45px;
+height: 500.41px;
+left: 809.69px;
+top: 627.24px;
+opacity: 0.8;
+filter: blur(95.6667px);
+transform: rotate(-19.51deg);
+background: rgba(255, 113, 215, 0.37);
+transform: rotate(-19.51deg);
+z-index: 1;
+}
+
+/* Morgs Illustration */
+
+.heroimg {
+position: absolute;
+width: 555px;
+height: 999px;
+left: 991px;
+top: 377px;
+z-index: 96;
+filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
+}
+
+
+/* footer */
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 251px;
+  top: 5782px;
+}
+
+.flex-container {
+    display: flex;
+    height: 400px;
+    align-content: center;
+    justify-content: space-between;
+    background-image: url(../images/footer_background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.flex-container > div {
+    background-color: transparent;
+    width: 400px;
+    margin: 0px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+  }
+
+.footerinline-block {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+      float: center;
+  }
+  
+.footernav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px;
+      gap: 37px; 
+  }
+  
+.footertext {
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: auto;
+      display: flex;
+      text-align: center;
+      color: #ffffff;
+      text-transform: capitalize;
+  }
+  
+.footerlogo {
+      width: 150px;
+}
+
+.buttoninline-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerbutton {
+      background: #B5DD37;
+      border-radius: 6px;
+      border: #B5DD37;
+      font-size: 27.8px;
+      color: #FFFFFF;
+      text-align: center;
+      transition-duration: 0.8s;
+      text-decoration: none;
+      cursor: pointer;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  
+  .footerbutton:hover {
+      background-color: #FF71D7;
+      color: white;
+    }
+  
+  .footerlinks {
+      text-decoration: none;
+      color: #FFFFFF;
+  }
+
+.footerwords {
+    position: relative;
+    left: 4%;
+    bottom: -190%;
+    background-size: auto;
+}
+
+.footermorgs {
+    position: relative;
+    left: 70%;
+    bottom: 10%;
+    transform: rotate(-4.78deg);
+}
+
+.footerlogo {
+    position: relative;
+    width: 250px;
+    float: left;
+    left: 183.79px;
+    top: -300px;
+}
+
+.copyright {
+    font: 10px;
+    text-align: center;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 300;
+    color: #ffffff;
+    background: #00425B;
+    padding-bottom: 30px;
+}
