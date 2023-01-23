@@ -2,24 +2,24 @@
 
 @font-face {
     font-family: 'Dinosaur Cake DEMO';
-    src: url("../../fonts/Dinosaur%20Cake%20DEMO.otf") format("opentype");
+    src: url("../fonts/Dinosaur%20Cake%20DEMO.otf") format("opentype");
 }
 
 @font-face {
     font-family: 'Satoshi';
-    src: url("../../fonts/Satoshi-Regular.otf") format("opentype");
+    src: url("../fonts/Satoshi-Regular.otf") format("opentype");
         font-style: normal;
         font-weight: 300;
 }
 @font-face {
     font-family: 'Satoshi';
-    src: url("../../fonts/Satoshi-Medium.otf") format("opentype");
+    src: url("../fonts/Satoshi-Medium.otf") format("opentype");
         font-style: normal;
         font-weight: 400;
 }
     @font-face {
     font-family: 'Satoshi';
-    src: url("../../fonts/Satoshi-Bold.otf") format("opentype");
+    src: url("../fonts/Satoshi-Bold.otf") format("opentype");
         font-style: normal;
         font-weight: 700;
 }
