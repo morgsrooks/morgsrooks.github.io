@@ -224,6 +224,7 @@ p {
   left: 11.23%;
   right: 86.31%;
   top: 10.73%;
+  animation: glow 5s infinite;
 }
 
 .star2 {
@@ -232,6 +233,7 @@ p {
   right: 9.35%;
   top: 15.84%;
   bottom: 95.48%;
+  animation: glow 5s infinite;
 }
 
 .star3 {
@@ -240,6 +242,7 @@ p {
   right: 81%;
   top: 25.24%;
   bottom: 94.32%;
+  animation: glow 5s infinite;
 }
 
 .star4 {
@@ -250,6 +253,7 @@ p {
   bottom: 86.89%;
   transform: matrix(0.98, 0.19, -0.22, 0.98, 0, 0);
   z-index: 99;
+  animation: glow 5s infinite;
 }
 
 .star5 {
@@ -257,6 +261,7 @@ p {
   left: 2.66%;
   right: 90.88%;
   top: 90.14%;
+  animation: glow 5s infinite;
 }
 
 /* good morning starshine, ther earth says hello! */
@@ -266,15 +271,7 @@ p {
   60% { box-shadow: 0 0 15px 3px #99B900; }
   100% { box-shadow: 0 0 -28px 3px #99B900; }
 }
-.littlestar {
-  background-color: white;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto;
-  height: 100px;
-  width: 100px;
-  animation: glow 5s infinite;
-}
+
 
 /* Top Hero Line */
 
