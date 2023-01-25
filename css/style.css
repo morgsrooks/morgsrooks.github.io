@@ -271,8 +271,8 @@ p {
   border-radius: 50%;
   display: block;
   margin: 0 auto;
-  height: 10px;
-  width: 10px;
+  height: 100px;
+  width: 100px;
   animation: glow 5s infinite;
 }
 
