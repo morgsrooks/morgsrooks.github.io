@@ -224,7 +224,6 @@ p {
   left: 11.23%;
   right: 86.31%;
   top: 10.73%;
-  animation: glow 5s infinite;
 }
 
 .star2 {
@@ -233,7 +232,6 @@ p {
   right: 9.35%;
   top: 15.84%;
   bottom: 95.48%;
-  animation: glow 5s infinite;
 }
 
 .star3 {
@@ -242,7 +240,6 @@ p {
   right: 81%;
   top: 25.24%;
   bottom: 94.32%;
-  animation: glow 5s infinite;
 }
 
 .star4 {
@@ -253,7 +250,6 @@ p {
   bottom: 86.89%;
   transform: matrix(0.98, 0.19, -0.22, 0.98, 0, 0);
   z-index: 99;
-  animation: glow 5s infinite;
 }
 
 .star5 {
@@ -261,16 +257,9 @@ p {
   left: 2.66%;
   right: 90.88%;
   top: 90.14%;
-  animation: glow 5s infinite;
 }
 
 /* good morning starshine, the earth says hello! */
-@keyframes glow {
-  0% { box-shadow: 0 0 -28px 3px #FF71D7; }
-  40% { box-shadow: 0 0 15px 3px #ff71d7; }
-  60% { box-shadow: 0 0 15px 3px #ff71d7; }
-  100% { box-shadow: 0 0 -28px 3px #FF71D7; }
-}
 
 
 /* Top Hero Line */
@@ -394,12 +383,12 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
       padding-bottom: 20px;
   }
   
-  .footerbutton:hover {
+.footerbutton:hover {
       background-color: #FF71D7;
       color: white;
     }
   
-  .footerlinks {
+.footerlinks {
       text-decoration: none;
       color: #FFFFFF;
   }
