@@ -310,6 +310,7 @@ left: 991px;
 top: 377px;
 z-index: 96;
 filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
+animation: glow 5s infinite;
 }
 
 
