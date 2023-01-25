@@ -266,10 +266,10 @@ p {
 
 /* good morning starshine, ther earth says hello! */
 @keyframes glow {
-  0% { box-shadow: 0 0 -28px 3px #99B900; }
-  40% { box-shadow: 0 0 15px 3px #99B900; }
-  60% { box-shadow: 0 0 15px 3px #99B900; }
-  100% { box-shadow: 0 0 -28px 3px #99B900; }
+  0% { box-shadow: 0 0 -28px 3px #FF71D7; }
+  40% { box-shadow: 0 0 15px 3px #ff71d7; }
+  60% { box-shadow: 0 0 15px 3px #ff71d7; }
+  100% { box-shadow: 0 0 -28px 3px #FF71D7; }
 }
 
 
