@@ -446,8 +446,8 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
 }
 
 .bulletstar {
-    padding-right: 30px !important;
-    margin-left: -65px !important;
+    padding-right: 10px !important;
+    margin-left: -35px !important;
 }
 
 .blueplain {
@@ -502,7 +502,6 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
     }
     .blueplain {
         font-size: 40px;
-    
     }
     .projectjourney {
         font-size: 6em;
@@ -559,8 +558,10 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
         left: -90px;
         top: 400px;
         }
-        body {
-            overflow-x: hidden !important;
+
+    body {
+        overflow-x: hidden !important;
         }
     
     }
+
