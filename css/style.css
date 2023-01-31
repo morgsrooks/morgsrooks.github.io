@@ -28,8 +28,8 @@
 /* Background Gradient */
     
 body {
-    width: auto;
-    background: linear-gradient(180deg, #00425B 1.04%, rgba(0, 66, 91, 0.83) 10.83%, rgba(0, 66, 91, 0) 60%);
+    width: 100%;
+    background: linear-gradient(180deg, #00425B 1.04%, rgba(0, 66, 91, 0.83) 30.83%, rgba(0, 66, 91, 0) 60%);
     background-repeat: no-repeat;
 }
 
@@ -428,14 +428,14 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
 
 .main-content {
     flex: 1; 
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   
 .analytical {
     flex: 1;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
 .icons {
@@ -485,12 +485,6 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
     #hero {
         font-size: 4em;
     }
-    .hero {
-        position: relative;
-        width: 90%;
-        margin-top: 200px;
-        margin-left: 40px;
-    }
     h1 {
         font-size: 2.25em;
     }
@@ -519,7 +513,7 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
         width: 90%;
         height: 700px;
         top: 0;
-        left: -20px;
+        left: -30px;
         z-index: 96;
         filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
         }
@@ -548,13 +542,13 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
         transform: rotate(3deg);
     }
     body {
-        width: auto;
+        width: 100%;
         background: linear-gradient(180deg, #00425B 1.04%, rgba(0, 66, 91, 0.83) 50.83%, rgba(0, 66, 91, 0) 60%);
         background-repeat: no-repeat;
     }
     p {
-        max-width: 98%;
-        font-size: 26px;
+        max-width: 95%;
+        font-size: 24px;
         color: #FFFFFF;
         z-index: 99;
     }
@@ -565,4 +559,8 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
         left: -90px;
         top: 400px;
         }
+        body {
+            overflow-x: hidden !important;
+        }
+    
     }
