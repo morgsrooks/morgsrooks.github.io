@@ -24,7 +24,6 @@
         font-weight: 700;
 }
 
-
 /* Background Gradient */
     
 body {
@@ -139,7 +138,7 @@ h2 {
     font-family: 'Dinosaur Cake DEMO';
     font-style: normal;
     font-weight: 400;
-    font-size: 14em;
+    font-size: 12em;
     line-height: .8em;
     color: #FF71D7;
 }
@@ -483,10 +482,10 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
 /* Media Query */
 @media (max-width:900px) {
     #hero {
-        font-size: 4em;
+        font-size: 3em;
     }
     h1 {
-        font-size: 2.25em;
+        font-size: 2em;
     }
     #skills {
         font-size: 6em;
@@ -512,7 +511,7 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
         width: 90%;
         height: 700px;
         top: 0;
-        left: -30px;
+        left: -70px;
         z-index: 96;
         filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
         }
@@ -547,7 +546,7 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
     }
     p {
         max-width: 95%;
-        font-size: 24px;
+        font-size: 22px;
         color: #FFFFFF;
         z-index: 99;
     }
@@ -562,6 +561,8 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
     body {
         overflow-x: hidden !important;
         }
-    
+    .hero {
+        margin-top: 200px;
+        margin-left: 50px;
     }
-
+    }
