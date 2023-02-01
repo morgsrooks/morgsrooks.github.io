@@ -485,7 +485,7 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
         font-size: 3em;
     }
     h1 {
-        font-size: 2em;
+        font-size: 1.75em;
     }
     #skills {
         font-size: 6em;
@@ -511,7 +511,7 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
         width: 90%;
         height: 700px;
         top: 0;
-        left: -70px;
+        left: -50px;
         z-index: 96;
         filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
         }
@@ -563,6 +563,6 @@ filter: drop-shadow(-3px -1px 9px rgba(0, 66, 91, 0.2));
         }
     .hero {
         margin-top: 200px;
-        margin-left: 50px;
+        margin-left: 45px;
     }
     }
